@@ -129,7 +129,7 @@ export default function App() {
         <Text style={[style.result, { color }]}>
           {alcoholLevel.toFixed(2)}
         </Text>
-        <Button title="Calculate" onPress={() => runAlcometer()}></Button>
+        <Button title='Calculate' onPress={() => runAlcometer()}></Button>
       </View>
     </ScrollView >
   );

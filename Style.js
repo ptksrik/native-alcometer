@@ -9,7 +9,7 @@ const style = StyleSheet.create({
         paddingHorizontal: 16,
     },
     customDropShadow: {
-        shadowColor: "#000",
+        shadowColor: '#000',
         shadowOffset: {
             width: 0,
             height: 2,
