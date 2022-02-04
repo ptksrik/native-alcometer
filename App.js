@@ -5,7 +5,7 @@ import Radiobutton from './components/Radiobutton'
 import style from './Style';
 
 export default function App() {
-  const [weight, setWeight] = useState('');
+  const [weight, setWeight] = useState(0);
   const [bottles, setBottles] = useState(1);
   const [gender, setGender] = useState('male');
   const [time, setTime] = useState(0);
@@ -75,7 +75,6 @@ export default function App() {
         </Text>
         <TextInput
           style={style.textInput}
-          value={weight}
           placeholder='In kilos'
           keyboardType='number-pad'
           onChangeText={(text) => setWeight(text)} />
